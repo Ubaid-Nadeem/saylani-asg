@@ -1,0 +1,239 @@
+@import url( 'https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+img{
+    border-radius: 500px;
+    width: 100px;
+    height: 100px;
+    margin:  -50px auto;
+    display: block;
+    padding-top: -100px;
+    
+    
+}
+.form{
+    width: 300px;
+    height: 400px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    border: 1px solid black;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 100px;
+
+}
+.form .loginfeild{
+    display: block;
+    margin:  20px auto;
+    width: 200px;
+    height: 25px;
+    padding: 2px 6px;
+
+}
+.inputdiv{
+    margin-top: 80px
+}
+.form .loginfeild::placeholder{
+    font-size: 11px;
+    padding: 2px 5px;
+}
+.form span{
+    font-size: 11px;
+    
+}
+label{
+    margin-left: 52px;
+}
+
+.bttn{
+    background-color: #007aff;
+    color: #fff;
+    width: 80px;
+    height: 30px;
+    border: none;
+    /* margin: 110px 200px; */
+    /* float: right; */
+   
+}
+
+.Signin-acc{
+    margin-left: 100px;
+    margin-right: 10px;
+    /* position: relative; */
+    display: inline-block;
+    
+}
+
+i{
+    /* padding-top: 100px; */
+    /* position: relative; */
+}
+.login-acc{
+    margin-top: 130px;
+    background:#e64343; 
+}
+.sin-in{
+    display: none;
+}
+.log-in{
+    /* display:none; */
+}
+#welcome_box{
+    width: 100%;
+    
+}
+.head {
+   background: #207398;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1;
+}
+.head p{
+    color: #ffff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.head p span{
+    font-weight: normal;
+}
+
+.head button{
+    color: white;
+    background-color: #007aff;
+    border: 1px solid #ffff;
+    padding: 5px;
+    width: 80px;
+    height: 40px;
+}
+.add{
+    background-color: #007aff;
+    color: #fff;
+    /* margin-top: 570px; */
+    border-radius: 100%;
+    position: absolute;
+    left: 20px;
+    bottom: 25px;
+}
+.modal-content{
+    width: 400px;
+}
+.modal-body{
+    height: 250px;
+    width: 100%;
+}
+.modal-body h1{
+    font-size: 20px;
+}
+.modal-body input{
+    width: 100%;
+    padding: 5px;
+    
+    border: none;
+    border-bottom: 1px solid #818181;
+    margin-top: 20px;
+}
+input:focus{
+    outline: none;
+}
+.modal-body select{
+    width: 100%;
+    padding: 5px;
+    margin-top: 40px;
+    /* margin-top: 20px; */
+}
+
+.text{
+    /* position: absolute; */
+   width: 60%;
+   height: 200px;
+   border: 1px solid black;
+   /* margin-top: 120px; */
+   box-sizing: border-box;
+   /* margin-left: 270px; */
+   display: block;
+}
+
+.teams-container{
+    border: 1px solid black;
+    width: 70%;
+    height: 500px;
+    margin-top: 110px;
+    margin-left: 200px;
+    position: absolute;
+
+
+}
+.own-teams h1{
+    font-size: 21px;
+    font-family: sans-serif;
+    /* display: inline-block; */
+    text-align: center;
+    font-weight: bold;
+}
+.team-1{
+    border: 1px solid black;
+    width: 80%;
+    height: 90px;
+    margin: 20px auto;
+}
+.team-1 h2{
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.team-1 h3{
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    display: inline;
+}
+
+.team-apart h1{
+    font-size: 21px;
+    font-family: sans-serif;
+    /* display: inline-block; */
+    text-align: center;
+    font-weight: bold;
+}
+.teams-you-are-part{
+    margin-top: 100px;
+}
+
+.own-teams{
+    /* display: none; */
+}
+.teams-you-are-part{
+    /* display: none; */
+}
+
+@media screen and (max-width: 800px) {
+.head{
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.head button{
+    width: 80px;
+    height: 40px;
+}
+#welcome_box{
+    /* justify-content: center; */
+    margin-left: 0px;
+    margin-top: 0px;
+    
+    }
+    
